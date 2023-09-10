@@ -1,5 +1,5 @@
 # The assignment and its algorithms
-The assignment can be interpreted into two parts. In the following they are described in text. 
+The assignment can be interpreted into two parts.
 
 ## Part 1: determining the best fitting ideal function
 In part 1 the goal is to find for a training function the best fitting ideal function amongst 50 candidates. There are a total of 4 different training functions and for each, the ideal function has to be found. A function is a collection of x- and y- coordinates and is provided for in a .csv file. Within the 50 candidates, the ideal function which has the lowest squared error towards the training function, is defined as the ideal function. This in essence is a variation of the “Mean squared error” and is a popular loss function towards models are optimised (Kerzel, 2020). 
@@ -21,4 +21,6 @@ A database which stores the classification towards the ideal functions together 
 Ad 3: The assignment did not provide any detail towards what should be saved if no classification can be made. Furthermore, if no classification can be made the deviation cannot be provided for either. The program writes in the case of no classification “-” within the “No of ideal func” column and “-1” within the “Delta Y (test func)” column.
 ## Other requirements
 Within the assignment, there are further requirements that impact the design of the program significantly. Foremost, it has to demonstrate an object-oriented design and use packages such as Panda, Bokeh and SQLAlchamy. As conclusion, the point is clearly not to simply calculate and solve the assignment but to demonstrate knowledge of Python and popular packages for data science purposes.
+
+##Part 1 solution is verified but not part 2. Part 2 is still under errors and is giving only tentative results to failure.
 
