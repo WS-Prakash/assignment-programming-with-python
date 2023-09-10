@@ -19,8 +19,7 @@ A database which mirrors the training data set
 A database which mirrors the candidate ideal functions data set
 A database which stores the classification towards the ideal functions together with the deviation
 Ad 3: The assignment did not provide any detail towards what should be saved if no classification can be made. Furthermore, if no classification can be made the deviation cannot be provided for either. The program writes in the case of no classification “-” within the “No of ideal func” column and “-1” within the “Delta Y (test func)” column.
-## Other requirements
-Within the assignment, there are further requirements that impact the design of the program significantly. Foremost, it has to demonstrate an object-oriented design and use packages such as Panda, Bokeh and SQLAlchamy. As conclusion, the point is clearly not to simply calculate and solve the assignment but to demonstrate knowledge of Python and popular packages for data science purposes.
-
-##Part 1 solution is verified but not part 2. Part 2 is still under errors and is giving only tentative results to failure.
+## Dependendencies:
+Python alternative dependencies may be required such as Pandas, Weh etc.
+Note: Part 1 solution is verified but not part 2. Part 2 is still under errors and is giving only tentative results to failure.
 
